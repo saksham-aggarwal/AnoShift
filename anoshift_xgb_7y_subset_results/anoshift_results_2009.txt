@@ -1,0 +1,4 @@
+Test Predictions for year 2009: [5.7807174e-05 1.9043951e-05 1.8784125e-05 ... 9.9988115e-01 9.9968886e-01
+ 9.9998152e-01]
+Evaluation Metrics for year 2009: {'threshold': 0.5, 'test_auc': np.float64(0.993973874162096), 'test_macro_f1': 0.9345556825641934, 'test_normal_f1': 0.961945104521817, 'test_anomaly_f1': 0.9071662606065698}
+Threshold Analysis Results for year 2009: [{'Threshold': 0.5, 'Precision': np.float64(0.8392662832271102), 'Recall': np.float64(0.9870201096892139), 'Specificity': np.float64(0.9310666666666667), 'F1': np.float64(0.9071662606065699), 'Macro_F1': 0.9345556825641934, 'Normal_F1': 0.961945104521817, 'Anomaly_F1': 0.9071662606065698, 'TP': np.int64(10798), 'FP': np.int64(2068), 'TN': np.int64(27932), 'FN': np.int64(142), 'FPR': np.float64(0.06893333333333333)}]

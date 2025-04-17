@@ -1,0 +1,105 @@
+Loading test data for year 2011...
+Test Set Results:
+[[279914  20085]
+ [  3707 815541]]
+              precision    recall  f1-score   support
+
+           0       0.99      0.93      0.96    299999
+           1       0.98      1.00      0.99    819248
+
+    accuracy                           0.98   1119247
+   macro avg       0.98      0.96      0.97   1119247
+weighted avg       0.98      0.98      0.98   1119247
+
+Test AUC: 0.9974
+
+Test F1 Scores:
+  Class 0 (Normal) F1 Score: 0.9592
+  Class 1 (Anomaly) F1 Score: 0.9856
+  Macro F1 Score: 0.9724
+Threshold Analysis Results for year 2011: [{'Threshold': 0.5, 'Precision': np.float64(0.9759641274924428), 'Recall': np.float64(0.9954751186453918), 'Specificity': np.float64(0.9330497768325895), 'F1': np.float64(0.9856230746268295), 'Macro_F1': 0.9724284113067667, 'Normal_F1': 0.9592337479867037, 'Anomaly_F1': 0.9856230746268296, 'TP': np.int64(815541), 'FP': np.int64(20085), 'TN': np.int64(279914), 'FN': np.int64(3707), 'FPR': np.float64(0.06695022316741056)}]
+
+Loading test data for year 2012...
+Test Set Results:
+[[284800  15200]
+ [ 13234 621358]]
+              precision    recall  f1-score   support
+
+           0       0.96      0.95      0.95    300000
+           1       0.98      0.98      0.98    634592
+
+    accuracy                           0.97    934592
+   macro avg       0.97      0.96      0.97    934592
+weighted avg       0.97      0.97      0.97    934592
+
+Test AUC: 0.9857
+
+Test F1 Scores:
+  Class 0 (Normal) F1 Score: 0.9525
+  Class 1 (Anomaly) F1 Score: 0.9776
+  Macro F1 Score: 0.9650
+Threshold Analysis Results for year 2012: [{'Threshold': 0.5, 'Precision': np.float64(0.9761215788663405), 'Recall': np.float64(0.9791456557914376), 'Specificity': np.float64(0.9493333333333334), 'F1': np.float64(0.9776312787633245), 'Macro_F1': 0.9650427435262428, 'Normal_F1': 0.9524542082891608, 'Anomaly_F1': 0.9776312787633246, 'TP': np.int64(621358), 'FP': np.int64(15200), 'TN': np.int64(284800), 'FN': np.int64(13234), 'FPR': np.float64(0.050666666666666665)}]
+
+Loading test data for year 2013...
+Test Set Results:
+[[ 279819   20181]
+ [  55836 1182228]]
+              precision    recall  f1-score   support
+
+           0       0.83      0.93      0.88    300000
+           1       0.98      0.95      0.97   1238064
+
+    accuracy                           0.95   1538064
+   macro avg       0.91      0.94      0.92   1538064
+weighted avg       0.95      0.95      0.95   1538064
+
+Test AUC: 0.9789
+
+Test F1 Scores:
+  Class 0 (Normal) F1 Score: 0.8804
+  Class 1 (Anomaly) F1 Score: 0.9689
+  Macro F1 Score: 0.9246
+Threshold Analysis Results for year 2013: [{'Threshold': 0.5, 'Precision': np.float64(0.9832161934915656), 'Recall': np.float64(0.9549005544139882), 'Specificity': np.float64(0.93273), 'F1': np.float64(0.9688515300107806), 'Macro_F1': 0.9246315370043521, 'Normal_F1': 0.8804115439979234, 'Anomaly_F1': 0.9688515300107807, 'TP': np.int64(1182228), 'FP': np.int64(20181), 'TN': np.int64(279819), 'FN': np.int64(55836), 'FPR': np.float64(0.06727)}]
+
+Loading test data for year 2014...
+Test Set Results:
+[[  14078  285922]
+ [ 153606 1669056]]
+              precision    recall  f1-score   support
+
+           0       0.08      0.05      0.06    300000
+           1       0.85      0.92      0.88   1822662
+
+    accuracy                           0.79   2122662
+   macro avg       0.47      0.48      0.47   2122662
+weighted avg       0.74      0.79      0.77   2122662
+
+Test AUC: 0.2857
+
+Test F1 Scores:
+  Class 0 (Normal) F1 Score: 0.0602
+  Class 1 (Anomaly) F1 Score: 0.8837
+  Macro F1 Score: 0.4719
+Threshold Analysis Results for year 2014: [{'Threshold': 0.5, 'Precision': np.float64(0.8537466917786287), 'Recall': np.float64(0.9157243635956639), 'Specificity': np.float64(0.046926666666666665), 'F1': np.float64(0.8836501095922322), 'Macro_F1': 0.47192657633630136, 'Normal_F1': 0.06020304308037051, 'Anomaly_F1': 0.8836501095922322, 'TP': np.int64(1669056), 'FP': np.int64(285922), 'TN': np.int64(14078), 'FN': np.int64(153606), 'FPR': np.float64(0.9530733333333333)}]
+
+Loading test data for year 2015...
+Test Set Results:
+[[   8969  291031]
+ [ 122091 1682231]]
+              precision    recall  f1-score   support
+
+           0       0.07      0.03      0.04    300000
+           1       0.85      0.93      0.89   1804322
+
+    accuracy                           0.80   2104322
+   macro avg       0.46      0.48      0.47   2104322
+weighted avg       0.74      0.80      0.77   2104322
+
+Test AUC: 0.3579
+
+Test F1 Scores:
+  Class 0 (Normal) F1 Score: 0.0416
+  Class 1 (Anomaly) F1 Score: 0.8906
+  Macro F1 Score: 0.4661
+Threshold Analysis Results for year 2015: [{'Threshold': 0.5, 'Precision': np.float64(0.8525127428592858), 'Recall': np.float64(0.9323341399151592), 'Specificity': np.float64(0.029896666666666665), 'F1': np.float64(0.8906385668723713), 'Macro_F1': 0.46612613167077016, 'Normal_F1': 0.04161369646916903, 'Anomaly_F1': 0.8906385668723713, 'TP': np.int64(1682231), 'FP': np.int64(291031), 'TN': np.int64(8969), 'FN': np.int64(122091), 'FPR': np.float64(0.9701033333333333)}]
+Total execution time: 5124.03 seconds

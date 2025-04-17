@@ -1,0 +1,4 @@
+Test Predictions for year 2011: [4.6708148e-05 2.1296895e-04 1.7987442e-04 ... 9.9638319e-01 9.8576111e-01
+ 9.9673492e-01]
+Evaluation Metrics for year 2011: {'threshold': 0.5, 'test_auc': np.float64(0.9592503127457548), 'test_macro_f1': 0.9582785991807806, 'test_normal_f1': 0.938054447719785, 'test_anomaly_f1': 0.9785027506417763}
+Threshold Analysis Results for year 2011: [{'Threshold': 0.5, 'Precision': np.float64(0.9649740192226893), 'Recall': np.float64(0.9924162158467277), 'Specificity': np.float64(0.901629672098907), 'F1': np.float64(0.9785027506417763), 'Macro_F1': 0.9582785991807806, 'Normal_F1': 0.938054447719785, 'Anomaly_F1': 0.9785027506417763, 'TP': np.int64(813035), 'FP': np.int64(29511), 'TN': np.int64(270488), 'FN': np.int64(6213), 'FPR': np.float64(0.098370327901093)}]
